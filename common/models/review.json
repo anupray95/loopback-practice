@@ -1,17 +1,20 @@
 {
-  "name": "CoffeeShop",
+  "name": "Review",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "forceId": false,
   "properties": {
-    "name": {
+    "date": {
       "type": "string",
-      "required": true
+      "default": "24-03-2023"
     },
-    "city": {
+    "rating": {
+      "type": "number",
+      "default": 5
+    },
+    "comments": {
       "type": "string"
     }
   },

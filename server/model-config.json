@@ -33,7 +33,11 @@
     "public": false
   },
   "CoffeeShop": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Review": {
+    "dataSource": "mongodb",
     "public": true
   }
 }
